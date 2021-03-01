@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color: #f1faee;
+    --color: #e63946;
+    --alt-color: #1d3557;
+    --com-color: #a8dadc;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--bg-color);
+    color: var(--color);
+    max-width: 90vw;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    margin: 3px 0;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    border-radius: 6px;
+    background: var(--alt-color);
+    color: var(--bg-color);
+    margin: 10px 0 5px;
+}
+
+#myBookList {
+    padding: 20px;
+    border-radius: 6px;
+    background: var(--com-color);
+    color: var(--bg-color);
+    margin: 10px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+/* .item {
+  background: var(--color);
+  display: flex;
+  justify-content: space-between;
+  max-width: var(--fixed-width);
+  margin: 1rem auto;
+  align-items: center;
+  border-radius: 6px;
+}
+.item button,
+.item a {
+  background: transparent;
+  border-color: transparent;
+  color: var(--clr-primary-5);
+  letter-spacing: var(--spacing);
+  cursor: pointer;
+}
+.item {
+  padding: 1rem 1rem;
+}
+.item h4 {
+  margin-bottom: 0;
+}
+.item p {
+  margin-bottom: 0;
+} */
+
+.item {
+    width: 22%;
+    padding: 0 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: var(--alt-color);
+    margin: 0 10px 20px;
+}
+
+.item button {
+    padding: 5px;
+    white-space: nowrap;
+    color: white;
+    width: 40%;
+    font-weight: bold;
+    border-color: transparent;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+
+.item button:hover {
+    background: var(--com-color);
+    color: var(--alt-color);
+}
+
+.red {
+    background: var(--color);
+}
+
+.green {
+    background: green;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+    max-width: 400px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-align: right;
+}
+
+/* Full-width input fields */
+.form-container input[type="text"],
+.form-container input[type="password"] {
+    width: 75%;
+    padding: 15px;
+    margin: 5px 5px 5px 5px;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type="text"]:focus,
+.form-container input[type="password"]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+    background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Responsive Layout */
+@media screen and (max-width: 900px) {
+    .item {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .item {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .item {
+        width: 100%;
+    }
+}
