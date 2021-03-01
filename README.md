@@ -6,7 +6,7 @@ Phone No: 07039486879
 Test Url: http://localhost:8000 (php artisan serve)
 
 ## Installation
-Clone Repo<br/>
+
 <b>Requirements</b> <br/>
 * MySQL/PHP (E.g WAMP/XAMPP)
 * Composer
@@ -16,6 +16,7 @@ Clone Repo<br/>
 - .env File Configuration - Update the database details (host, username, password, database name)
 <br/><br/>
 <b>Commands</b> <br/>
+<b>- Install Composer Dependencies<br/> -- composer install<br/>
 <b>- Migrate Database</b> -- "php artisan migrate" <br/>
 <b>- Start Server</b> -- "php artisan serve" <br/>
 <b>- Run Tests</b> -- "vendor\bin\phpunit" <br/>
