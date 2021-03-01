@@ -12,12 +12,12 @@ Test Url: http://localhost:8000 (php artisan serve)
 * Laravel
 <br/>
 <b>Configurations</b> <br/>
-* .env File Configuration - Update the database details (host, username, password, database name)
-<br>
+- .env File Configuration - Update the database details (host, username, password, database name)
+<br/><br/>
 <b>Commands</b> <br/>
-* Migrate Database - "php artisan migrate"
-* Start Server - "php artisan serve"
-* Run Tests - "vendor\bin\phpunit" 
+<b>- Migrate Database</b> -- "php artisan migrate" <br/>
+<b>- Start Server</b> -- "php artisan serve" <br/>
+<b>- Run Tests</b> -- "vendor\bin\phpunit" <br/>
 
 ## Files
 <b>View</b> <br/>
