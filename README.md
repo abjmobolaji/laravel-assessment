@@ -1,8 +1,8 @@
-## Fakunle, Mobolaji Johnson
+# Fakunle, Mobolaji Johnson
 Email: abjmobolaji@gmail.com <br/>
 Phone No: 07039486879
 
-## Full stack Laravel Developer Assessment
+# Full stack Laravel Developer Assessment
 Test Url: http://localhost:8000 (php artisan serve)
 
 ## Installation
@@ -14,13 +14,13 @@ Test Url: http://localhost:8000 (php artisan serve)
 * Database
 <br/>
 <b>Configurations</b> <br/>
-- After cloning repo, copy the content of .env.example to a new .env file in the same location.
-- .env File Configuration - Update the database details (host, username, password, database name)
-- Run command a "composer install" to install the dependencies.
-- Run command b "php artisan key:generate" to generate app key
-- Run command c "php artisan migrate" to connect and create tables
-- Run command d "php artisan serve" to start development server
-- Run command e "vendor\bin\phpunit" to start the test 
+- [ ] After cloning repo, copy the content of .env.example to a new .env file in the same location. <br/>
+- [ ] .env File Configuration - Update the database details (host, username, password, database name)<br/>
+- [ ] Run command a "composer install" to install the dependencies.<br/>
+- [ ] Run command b "php artisan key:generate" to generate app key.<br/>
+- [ ] Run command c "php artisan migrate" to connect and create tables.<br/>
+- [ ] Run command d "php artisan serve" to start development server.<br/>
+- [ ] Run command e "vendor\bin\phpunit" to start the test. <br/>
 <br/><br/>
 <b>Commands</b> <br/>
 <b>a - Install Composer Dependencies</b> -- "composer install"<br/>
