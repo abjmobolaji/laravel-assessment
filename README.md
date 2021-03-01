@@ -6,6 +6,7 @@ Phone No: 07039486879
 Test Url: http://localhost:8000 (php artisan serve)
 
 ## Installation
+Clone Repo<br/>
 <b>Requirements</b> <br/>
 * MySQL/PHP (E.g WAMP/XAMPP)
 * Composer
