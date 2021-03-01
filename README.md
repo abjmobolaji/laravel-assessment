@@ -11,15 +11,23 @@ Test Url: http://localhost:8000 (php artisan serve)
 * MySQL/PHP (E.g WAMP/XAMPP)
 * Composer
 * Laravel
+* Database
 <br/>
 <b>Configurations</b> <br/>
+- After cloning repo, copy the content of .env.example to a new .env file in the same location.
 - .env File Configuration - Update the database details (host, username, password, database name)
+- Run command a "composer install" to install the dependencies.
+- Run command b "php artisan key:generate" to generate app key
+- Run command c "php artisan migrate" to connect and create tables
+- Run command d "php artisan serve" to start development server
+- Run command e "vendor\bin\phpunit" to start the test 
 <br/><br/>
 <b>Commands</b> <br/>
-<b>- Install Composer Dependencies<br/> -- composer install<br/>
-<b>- Migrate Database</b> -- "php artisan migrate" <br/>
-<b>- Start Server</b> -- "php artisan serve" <br/>
-<b>- Run Tests</b> -- "vendor\bin\phpunit" <br/>
+<b>a - Install Composer Dependencies</b> -- "composer install"<br/>
+<b>b - Generate app key</b> -- "php artisan key:generate"<br/>
+<b>c - Migrate Database</b> -- "php artisan migrate" <br/>
+<b>d - Start Server</b> -- "php artisan serve" <br/>
+<b>e - Run Tests</b> -- "vendor\bin\phpunit" <br/>
 
 ## Files
 <b>View</b> <br/>
